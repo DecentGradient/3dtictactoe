@@ -1,0 +1,6 @@
+model_checkpoint_path: "time.struct_time(tm_year=2017, tm_mon=7, tm_mday=15, tm_hour=5, tm_min=50, tm_sec=19, tm_wday=5, tm_yday=196, tm_isdst=1).ckpt"
+all_model_checkpoint_paths: "time.struct_time(tm_year=2017, tm_mon=7, tm_mday=15, tm_hour=5, tm_min=40, tm_sec=44, tm_wday=5, tm_yday=196, tm_isdst=1).ckpt"
+all_model_checkpoint_paths: "time.struct_time(tm_year=2017, tm_mon=7, tm_mday=15, tm_hour=5, tm_min=43, tm_sec=57, tm_wday=5, tm_yday=196, tm_isdst=1).ckpt"
+all_model_checkpoint_paths: "time.struct_time(tm_year=2017, tm_mon=7, tm_mday=15, tm_hour=5, tm_min=47, tm_sec=6, tm_wday=5, tm_yday=196, tm_isdst=1).ckpt"
+all_model_checkpoint_paths: "time.struct_time(tm_year=2017, tm_mon=7, tm_mday=15, tm_hour=5, tm_min=50, tm_sec=17, tm_wday=5, tm_yday=196, tm_isdst=1).ckpt"
+all_model_checkpoint_paths: "time.struct_time(tm_year=2017, tm_mon=7, tm_mday=15, tm_hour=5, tm_min=50, tm_sec=19, tm_wday=5, tm_yday=196, tm_isdst=1).ckpt"

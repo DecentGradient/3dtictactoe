@@ -1,9 +1,9 @@
 import numpy as np
 import tensorflow as tf
-import tflearn
-
 from common.replay_buffer import ReplayBuffer
-
+'''
+Adapted from http://pemami4911.github.io/blog/2016/08/21/ddpg-rl.html
+'''
 
 class ActorNetwork(object):
 

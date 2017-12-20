@@ -10,6 +10,12 @@ import pickle as p
 from common.game import Game
 from common.dnn import ActorNetwork, CriticNetwork, build_summaries,PlayerTrainer
 
+'''
+This file contains the gameplay, passing state to the neural network, and receiving actions.
+See common/game.py for the game environment.
+See common/dnn.py for the neural network and training objects
+
+'''
 
 # ==========================
 #   Training Parameters

@@ -1,7 +1,9 @@
 import tensorflow as tf
 import numpy as np
 
-
+'''
+Adapted from Reinforment Learning in Udacity Deep Learning Foundations Nanodegree
+'''
 class QNetwork:
     def __init__(self, learning_rate=0.01, state_size=27,
                  action_size=27, hidden_size=100,
@@ -134,9 +136,9 @@ class QPlayerTrainer(object):
             # Train network
             target_Qs = self.sess.run(self.qnet.output, feed_dict={self.qnet.inputs_: next_states})
 
-            # Set target_Qs to 0 for states where episode ends
-            # episode_ends = (next_states == np.zeros(states[0].shape)).all(axis=1)
-            # target_Qs[episode_ends] = (0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+            # xSet target_Qs to 0 for states where episode ends
+            # xepisode_ends = (next_states == np.zeros(states[0].shape)).all(axis=1)
+            # xtarget_Qs[episode_ends] = (0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
 
             targets = rewards + self.gamma * np.max(target_Qs, axis=1)
 
